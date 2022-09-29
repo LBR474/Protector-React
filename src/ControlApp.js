@@ -20,15 +20,9 @@ export function ControlApp() {
   return (
     <>
       <Routes>
-<<<<<<< HEAD
         <Route path="/GQGame" element={<GQGame />} />
         <Route element={<AppLayout />}>
           <Route path="/" element={<Home />} />
-=======
-        <Route path="/GQGame" element={<GQGame />} />
-        <Route element={<AppLayout />}>
-          <Route path="/" element={<Home />} />
->>>>>>> 41156a7d378eff608ddd49b240ff90cade2a279c
         </Route>
       </Routes>
     </>
