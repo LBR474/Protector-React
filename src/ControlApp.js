@@ -20,9 +20,9 @@ export function ControlApp() {
   return (
     <>
       <Routes>
-        <Route path="/GQGame" element={<GQGame />} />
+        <Route path="/Protector-React/GQGame" element={<GQGame />} />
         <Route element={<AppLayout />}>
-          <Route path="/" element={<Home />} />
+          <Route path="/Protector-React" element={<Home />} />
         </Route>
       </Routes>
     </>
