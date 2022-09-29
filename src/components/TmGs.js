@@ -8,7 +8,9 @@ import { useGLTF, useAnimations } from '@react-three/drei'
 export function TmGs(props) {
   const group = useRef()
   const greenSphere = useRef()
-  const { nodes, materials, animations } = useGLTF('/tmGs.gltf')
+  const { nodes, materials, animations } = useGLTF(
+    process.env.PUBLIC_URL + "/tmGs.gltf"
+  );
   const { actions } = useAnimations(animations, group)
   return (
     <group ref={group} {...props} dispose={null}>

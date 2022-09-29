@@ -12,7 +12,9 @@ export function TmRs(props) {
   const redSphere = React.createRef()
    
 
-  const { nodes, materials, animations } = useGLTF('/tmRs.gltf')
+  const { nodes, materials, animations } = useGLTF(
+    process.env.PUBLIC_URL + "/tmRs.gltf"
+  );
   const { actions } = useAnimations(animations, group)
   return (
     <group ref={group} {...props} dispose={null}>

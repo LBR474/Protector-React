@@ -8,8 +8,8 @@ export function Home() {
         1. Taekwondo game in Angular
         <p>
           <img
-            src="/TKD_Game.png"
-            alt="TKDImage"
+            src={process.env.PUBLIC_URL + "/TKD_Game.png"}
+            alt="TKD"
             height={height}
             className="responsive"
           ></img>
@@ -19,8 +19,8 @@ export function Home() {
         2. Vector Drawing in Vue
         <p>
           <img
-            src="/Vector_Drawing.png"
-            alt="VDImage"
+            src={process.env.PUBLIC_URL + "/Vector_Drawing.png"}
+            alt="VD"
             height={height}
             className="responsive"
           ></img>
@@ -30,8 +30,8 @@ export function Home() {
         3. Polar Graphing in React Native
         <p>
           <img
-            src="/Polar_Graphing.png"
-            alt="Polar Graphing Image"
+            src={process.env.PUBLIC_URL + "/Polar_Graphing.png"}
+            alt="Polar Graphing "
             height={height}
             className="responsive"
           ></img>

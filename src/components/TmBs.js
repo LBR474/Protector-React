@@ -8,7 +8,9 @@ import { useGLTF, useAnimations } from '@react-three/drei'
 export function TmBs(props) {
   const group = useRef()
   const blueSphere = React.createRef('blueSphere')
-  const { nodes, materials, animations } = useGLTF('/tmBs.gltf')
+  const { nodes, materials, animations } = useGLTF(
+    process.env.PUBLIC_URL + "/tmBs.gltf"
+  );
   const { actions } = useAnimations(animations, group)
   
   return (

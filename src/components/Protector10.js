@@ -18,7 +18,9 @@ import {gsap} from "gsap"
 const Name = createContext();
 
 export function Protector10(props) {
-  const { nodes, materials } = useGLTF("/Protector10.gltf");
+  const { nodes, materials } = useGLTF(
+    process.env.PUBLIC_URL + "/Protector10.gltf"
+  );
 
   const P10ProtectorRef = React.createRef()
 
