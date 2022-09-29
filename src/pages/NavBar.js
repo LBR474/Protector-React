@@ -10,13 +10,13 @@ export const NavBar = () => {
     <div>
       <nav>
         <button>
-          <Link to={"/"} element={<Home />}>
+          <Link to={"/react-three"} element={<Home />}>
             Home
           </Link>
         </button>
         &emsp;
         <button>
-          <Link to={"/GQGame"} element={<GQGame />}>
+          <Link to={"/react-three/GQGame"} element={<GQGame />}>
             Galaxy Quest game (React)
           </Link>
         </button>
