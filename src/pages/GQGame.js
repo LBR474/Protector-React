@@ -104,7 +104,7 @@ export const GQGame = () => {
   const ExpNavLinkPara = () => {
     return (
       <p id="ExpNavLink_para">
-        <NavLink to={"/"} key={nanoid(6)}>
+        <NavLink to={"/Protector-React"} key={nanoid(6)}>
           Go back home
         </NavLink>
       </p>
@@ -116,7 +116,7 @@ export const GQGame = () => {
     if (showScoreNavLinkPara) {
       return (
         <p id="ScoreNavLink_para">
-          <Link to={"/"} >
+          <Link to={"/Protector-React"} >
             Back to home
           </Link>
         </p>
