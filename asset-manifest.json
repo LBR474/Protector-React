@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Protector-React/static/css/main.43a1aec1.css",
+    "main.js": "/Protector-React/static/js/main.4f9c01d6.js",
+    "index.html": "/Protector-React/index.html",
+    "main.43a1aec1.css.map": "/Protector-React/static/css/main.43a1aec1.css.map",
+    "main.4f9c01d6.js.map": "/Protector-React/static/js/main.4f9c01d6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43a1aec1.css",
+    "static/js/main.4f9c01d6.js"
+  ]
+}
