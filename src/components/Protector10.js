@@ -295,5 +295,5 @@ export function Protector10(props) {
   );
 }
 
-useGLTF.preload("/Protector10.gltf");
+useGLTF.preload(process.env.PUBLIC_URL + "/Protector10.gltf");
 

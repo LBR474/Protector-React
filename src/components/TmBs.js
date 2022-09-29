@@ -42,4 +42,4 @@ export function TmBs(props) {
   );
 }
 
-useGLTF.preload('/tmBs.gltf')
+useGLTF.preload(process.env.PUBLIC_URL + "/tmBs.gltf");
