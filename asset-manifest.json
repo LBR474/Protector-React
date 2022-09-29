@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Protector-React/static/css/main.43a1aec1.css",
-    "main.js": "/Protector-React/static/js/main.f3a07a7f.js",
+    "main.js": "/Protector-React/static/js/main.d0c04f4b.js",
     "index.html": "/Protector-React/index.html",
     "main.43a1aec1.css.map": "/Protector-React/static/css/main.43a1aec1.css.map",
-    "main.f3a07a7f.js.map": "/Protector-React/static/js/main.f3a07a7f.js.map"
+    "main.d0c04f4b.js.map": "/Protector-React/static/js/main.d0c04f4b.js.map"
   },
   "entrypoints": [
     "static/css/main.43a1aec1.css",
-    "static/js/main.f3a07a7f.js"
+    "static/js/main.d0c04f4b.js"
   ]
 }
